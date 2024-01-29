@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h2{
+    font-size: small;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.scroll-container { 
+    overflow-x: scroll; 
+    
+} 
+
+.scroll-container::-webkit-scrollbar { 
+    height: 6px;
+    border-radius: 100%;
+} 
+
+.scroll-container::-webkit-scrollbar-track { 
+    background: #f1f1f1; 
+
+} 
+
+.scroll-container::-webkit-scrollbar-thumb { 
+    background: #888; 
+    border-radius: 10%;
+} 
+
+.scroll-container::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+    
+} 
+
+.scroll-container::-webkit-scrollbar-button { 
+    display: none; 
+} 
+    
